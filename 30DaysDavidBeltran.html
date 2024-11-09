@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="David Beltrán">
+<meta name="dcterms.date" content="2024-11-06">
+
+<title>30DaysDavidBeltran</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="30DaysDavidBeltran_files/libs/clipboard/clipboard.min.js"></script>
+<script src="30DaysDavidBeltran_files/libs/quarto-html/quarto.js"></script>
+<script src="30DaysDavidBeltran_files/libs/quarto-html/popper.min.js"></script>
+<script src="30DaysDavidBeltran_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="30DaysDavidBeltran_files/libs/quarto-html/anchor.min.js"></script>
+<link href="30DaysDavidBeltran_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="30DaysDavidBeltran_files/libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="30DaysDavidBeltran_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="30DaysDavidBeltran_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="30DaysDavidBeltran_files/libs/bootstrap/bootstrap-5bdc1ec511977dd36301403cf8f4f68d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+<link rel="stylesheet" href=".responsive-iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* Relación de aspecto 4:3 */
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}">
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">30DaysDavidBeltran</h1>
+<p class="subtitle lead">30 Days Challenge</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>David Beltrán </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 6, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introducción" class="level1">
+<h1>Introducción</h1>
+<p>En este trabajo, se realiza un análisis detallado utilizando diversas técnicas de visualización de datos para explorar y comunicar patrones e información clave en diferentes conjuntos de datos. La visualización de datos permite transformar datos complejos en representaciones visuales claras y efectivas, facilitando la interpretación y toma de decisiones informadas.</p>
+<p>Este trabajo fue realizado para la materia de <strong>Visualización de Datos</strong> y tiene como objetivo aplicar los conocimientos adquiridos en la creación de gráficos dinámicos, interactivos y responsivos utilizando herramientas.</p>
+</section>
+<section id="herramientas-utilizadas" class="level1">
+<h1>Herramientas Utilizadas</h1>
+<p>Para el desarrollo de este proyecto, se han utilizado las siguientes herramientas y tecnologías:</p>
+<ul>
+<li><p><strong>Power BI</strong>: Para la creación de reportes interactivos y visualización de datos en forma de dashboards.</p></li>
+<li><p><strong>Python</strong>: Herramienta de análisis y manipulación de datos, facilitando la personalización y creación de gráficos.</p></li>
+<li><p><strong>Datawrapper</strong>: Plataforma utilizada para generar gráficos de fácil interpretación, especialmente para visualizaciones rápidas y personalizadas.</p></li>
+<li><p><strong>R con Quarto</strong>: R facilita la manipulación de datos y el diseño de gráficos complejos utilizando paquetes como ggplot2, que permite crear visualizaciones claras y detalladas para comunicar hallazgos de manera efectiva</p></li>
+<li><p><strong>Looker Studio</strong>: Para la creación de reportes y dashboards interactivos en la web, permitiendo la integración de diversas fuentes de datos.</p></li>
+</ul>
+</section>
+<section id="comparisons-comparaciones" class="level1">
+<h1>Comparisons (Comparaciones)</h1>
+<section id="part-to-whole-parte-del-todo" class="level2">
+<h2 class="anchored" data-anchor-id="part-to-whole-parte-del-todo">Part-to-whole (Parte del todo)</h2>
+<p><strong>Descripción:</strong> Este gráfico dinámico muestra la proporción de hombres y mujeres en los parlamentos de varios países, permitiendo seleccionar un año entre 1990 y 2022. Utiliza datos del Human Development Report y se basa en el Índice de Gender Inequality Index (GII) como referencia contextual para analizar la igualdad de género en la política.</p>
+<p><strong>Objetivo</strong>: Observar cómo variaba la representación de mujeres en puestos parlamentarios en diferentes regiones y culturas, resaltando la disparidad de género en el ámbito político, la visualización permite explorar por años.</p>
+<p>Los datos fueron extraídos de <a href="https://hdr.undp.org/data-center/documentation-and-downloads">Human Development Report</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="1.Part-to-whole" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiNDIyYTM2YjgtYzhiMC00YzkyLTk4ZGMtODZhZmFhNDM0OWRmIiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta</strong>: PowerBi</p>
+</section>
+<section id="neo" class="level2">
+<h2 class="anchored" data-anchor-id="neo">Neo</h2>
+<p><strong>Descripción:</strong> Este gráfico de cuerda visualiza las relaciones entre varios indicadores de género femenino y educación en Ecuador, basándose en datos del <em>Human Development Report</em> del año más reciente disponible. Los indicadores incluyen la tasa de natalidad adolescente, la tasa de mortalidad materna, la participación femenina en la fuerza laboral y el nivel de educación secundaria alcanzado por mujeres. La intensidad de cada conexión representa el promedio entre los valores de los indicadores conectados, destacando posibles correlaciones entre aspectos de salud, educación y empleo en la vida de las mujeres en Ecuador.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es identificar posibles interrelaciones entre los indicadores de salud, educación y empleo en las mujeres ecuatorianas, facilitando la comprensión de cómo estos factores pueden influirse mutuamente. Esto puede ayudar a los responsables de políticas a identificar áreas clave para mejorar la igualdad de género y la calidad de vida de las mujeres en el país.</p>
+<p>Los datos fueron extraídos de <a href="https://hdr.undp.org/data-center/documentation-and-downloads">Human Development Report</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> holoviews <span class="im">as</span> hv</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> holoviews <span class="im">import</span> opts</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>hv.extension(<span class="st">'bokeh'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el archivo de datos</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>file_path <span class="op">=</span> <span class="st">'Data/hdr-data.xlsx'</span>  </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_excel(file_path)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Seleccionar el año más reciente con datos completos</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>latest_year <span class="op">=</span> data[<span class="st">'year'</span>].<span class="bu">max</span>()</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar el dataset para el año más reciente y el país "Ecuador"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="op">=</span> data[(data[<span class="st">'year'</span>] <span class="op">==</span> latest_year) <span class="op">&amp;</span> (data[<span class="st">'country'</span>] <span class="op">==</span> <span class="st">'Ecuador'</span>)]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Seleccionar los indicadores de interés, excluyendo los indicadores que involucran hombres</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>indicators_of_interest <span class="op">=</span> [</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Adolescent Birth Rate (births per 1,000 women ages 15-19)"</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Maternal Mortality Ratio (deaths per 100,000 live births)"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Labour force participation rate, female (% ages 15 and older)"</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Population with at least some secondary education, female (% ages 25 and older)"</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar el dataset para los indicadores seleccionados</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="op">=</span> filtered_data[filtered_data[<span class="st">'indicator'</span>].isin(indicators_of_interest)]</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear una lista de relaciones en el formato (source, target, value)</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>relations <span class="op">=</span> []</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Definir las relaciones basadas en los indicadores seleccionados</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>indicator_relations <span class="op">=</span> [</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"Adolescent Birth Rate (births per 1,000 women ages 15-19)"</span>,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>     <span class="st">"Labour force participation rate, female (% ages 15 and older)"</span>),</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"Maternal Mortality Ratio (deaths per 100,000 live births)"</span>,</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>     <span class="st">"Labour force participation rate, female (% ages 15 and older)"</span>),</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"Population with at least some secondary education, female (% ages 25 and older)"</span>,</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>     <span class="st">"Labour force participation rate, female (% ages 15 and older)"</span>)</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular los valores promedio para cada relación en Ecuador</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> source, target <span class="kw">in</span> indicator_relations:</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    source_value <span class="op">=</span> filtered_data[filtered_data[<span class="st">'indicator'</span>] <span class="op">==</span> source][<span class="st">'value'</span>].mean()</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    target_value <span class="op">=</span> filtered_data[filtered_data[<span class="st">'indicator'</span>] <span class="op">==</span> target][<span class="st">'value'</span>].mean()</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Usamos el promedio de los dos valores como intensidad de la relación</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> pd.isna(source_value) <span class="kw">and</span> <span class="kw">not</span> pd.isna(target_value):</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>        relation_value <span class="op">=</span> (source_value <span class="op">+</span> target_value) <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>        relations.append((source, target, relation_value))</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de cuerda</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>chord <span class="op">=</span> hv.Chord(relations).opts(</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    opts.Chord(</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>        title<span class="op">=</span><span class="st">"Relaciones de Indicadores de Género Femenino y Educación en Ecuador"</span>,</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>        cmap<span class="op">=</span><span class="st">'Category10'</span>,  </span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>        edge_cmap<span class="op">=</span><span class="st">'Category10'</span>,  </span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>        labels<span class="op">=</span><span class="st">'name'</span>,</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>        node_color<span class="op">=</span><span class="st">'index'</span>,</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>        edge_color<span class="op">=</span><span class="st">'value'</span>,  </span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>        bgcolor<span class="op">=</span><span class="st">'white'</span>,  </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>        edge_alpha<span class="op">=</span><span class="fl">0.9</span>,  </span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>        edge_line_width<span class="op">=</span><span class="dv">3</span>,  </span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>        width<span class="op">=</span><span class="dv">800</span>,</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>        height<span class="op">=</span><span class="dv">800</span>,</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>        show_legend<span class="op">=</span><span class="va">True</span>  </span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>hv.save(chord, <span class="st">'chord_plot.html'</span>, backend<span class="op">=</span><span class="st">'bokeh'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<iframe src="chord_plot.html" width="900" height="900" frameborder="0">
+</iframe>
+<p><strong>Herramienta:</strong> Holoviews con el backend de Bokeh en Python.</p>
+</section>
+<section id="makeover-rediseño" class="level2">
+<h2 class="anchored" data-anchor-id="makeover-rediseño">Makeover (Rediseño)</h2>
+<p><strong>Descripción:</strong> Este gráfico de mapa dinámico muestra la distribución de género en los parlamentos de diversos países de América Latina, donde se representan las proporciones de hombres y mujeres en cada país mediante gráficos de pastel superpuestos en su ubicación geográfica. Los datos, extraídos del Human Development Report, permiten visualizar la representación de género en la política latinoamericana a lo largo del tiempo, con un filtro de años que permite seleccionar el periodo específico entre 1990 y 2022.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es facilitar la comprensión reaciendo el grafico existente en Part-to-whole de la evolución de la representación femenina en los parlamentos de América Latina, promoviendo una mejor comprensión de las disparidades de género en la región. Esta perspectiva geoespacial permite identificar patrones y tendencias en la representación de género en el contexto político, destacando cambios y persistencias en diferentes periodos.</p>
+<p>Los datos fueron extraídos de <a href="https://hdr.undp.org/data-center/documentation-and-downloads">Human Development Report</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="3.Makeover" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiOTZhZDFhYTgtYjc2ZC00ZTg5LTk4YTctMjliZjU0YWE5NzU3IiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Power BI.</p>
+</section>
+<section id="waffle" class="level2">
+<h2 class="anchored" data-anchor-id="waffle">Waffle</h2>
+<p><strong>Descripción:</strong> Este gráfico de waffle muestra la tasa de participación laboral en Ecuador para el año 2022, desglosada por género. La visualización permite observar la proporción de hombres y mujeres en la fuerza laboral, utilizando una representación en bloques para reflejar la contribución de cada grupo. Los datos provienen del <em>Human Development Report</em> y destacan la diferencia en la participación laboral entre géneros.</p>
+<p><strong>Objetivo:</strong> El objetivo de este gráfico es facilitar la comparación visual de la participación laboral entre hombres y mujeres en Ecuador, proporcionando una manera intuitiva de identificar la disparidad de género en el ámbito laboral. Este Grafico puede ayudar a los responsables de políticas y a investigadores a entender mejor las dinámicas de género en el mercado laboral ecuatoriano.</p>
+<p>Los datos fueron extraídos de <a href="https://hdr.undp.org/data-center/documentation-and-downloads">Human Development Report</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pywaffle <span class="im">import</span> Waffle</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> mpld3</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar los datos desde el archivo</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>file_path <span class="op">=</span> <span class="st">'Data/hdr-data.xlsx'</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_excel(file_path)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar el dataset para obtener los datos de Ecuador y los indicadores específicos</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>ecuador_data <span class="op">=</span> data[(data[<span class="st">'country'</span>] <span class="op">==</span> <span class="st">'Ecuador'</span>) <span class="op">&amp;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>                    (data[<span class="st">'indicator'</span>].isin([<span class="st">'Labour force participation rate, male (% ages 15 and older)'</span>,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>                                             <span class="st">'Labour force participation rate, female (% ages 15 and older)'</span>]))]</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Seleccionar el año más reciente con datos</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>data_fitrada <span class="op">=</span> ecuador_data[ecuador_data[<span class="st">'year'</span>] <span class="op">==</span> <span class="dv">2022</span>]</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtener los valores de participación laboral masculina y femenina</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>masculina <span class="op">=</span> data_fitrada[data_fitrada[<span class="st">'indicator'</span>] <span class="op">==</span> <span class="st">'Labour force participation rate, male (% ages 15 and older)'</span>][<span class="st">'value'</span>].values[<span class="dv">0</span>]</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>femenina <span class="op">=</span> data_fitrada[data_fitrada[<span class="st">'indicator'</span>] <span class="op">==</span> <span class="st">'Labour force participation rate, female (% ages 15 and older)'</span>][<span class="st">'value'</span>].values[<span class="dv">0</span>]</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalizar los valores para que sumen 100%</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>total_participation <span class="op">=</span> masculina <span class="op">+</span> femenina</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>porcentaje_m <span class="op">=</span> (masculina <span class="op">/</span> total_participation) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>porcentaje_f <span class="op">=</span> (femenina <span class="op">/</span> total_participation) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de waffle</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    FigureClass<span class="op">=</span>Waffle,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    rows<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    values<span class="op">=</span>{<span class="st">'Hombres'</span>: porcentaje_m, <span class="st">'Mujeres'</span>: porcentaje_f},  </span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    colors<span class="op">=</span>[<span class="st">"#1f77b4"</span>, <span class="st">"#ff7f0e"</span>],  </span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    title<span class="op">=</span>{<span class="st">'label'</span>: <span class="ss">f'Tasa de participación laboral en Ecuador 2022'</span>, <span class="st">'loc'</span>: <span class="st">'center'</span>},</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    labels<span class="op">=</span>[<span class="st">"Hombres"</span>, <span class="st">"Mujeres"</span>],</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    legend<span class="op">=</span>{<span class="st">'loc'</span>: <span class="st">'upper left'</span>, <span class="st">'bbox_to_anchor'</span>: (<span class="dv">1</span>, <span class="dv">1</span>)}</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> Python con la librería <code>pywaffle</code> y <code>matplotlib</code>.</p>
+</section>
+<section id="diverging-divergente" class="level2">
+<h2 class="anchored" data-anchor-id="diverging-divergente">Diverging (Divergente)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra la tasa de mortalidad materna en varios países de América Latina, comparando los valores del año 2000 y del año 2020. La métrica utilizada es el número de muertes maternas por cada 100,000 nacidos vivos. Este Grafico permite observar cambios significativos en los niveles de mortalidad materna a lo largo de dos décadas, destacando los avances o retrocesos en la región. Los datos provienen del <em>Human Development Report</em>, proporcionando un contexto sobre las condiciones de salud materna en cada país.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es evidenciar las variaciones en la mortalidad materna entre el año 2000 y el 2020 en América Latina, resaltando los países que han logrado avances en la reducción de esta tasa y aquellos donde los cambios han sido menores. Este análisis ayuda a identificar áreas donde se necesitan intervenciones más fuertes para mejorar la salud materna en la región.</p>
+<p>Los datos fueron extraídos de <a href="https://hdr.undp.org/data-center/documentation-and-downloads">Human Development Report</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="5.Diverging" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiODRhMTI5NDQtMDQ0Zi00MmUzLWJhMTQtOTQxZjgzNzVlMjNlIiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Power BI.</p>
+</section>
+<section id="oecd-día-de-datos-de-la-ocde" class="level2">
+<h2 class="anchored" data-anchor-id="oecd-día-de-datos-de-la-ocde">OECD (Día de datos de la OCDE)</h2>
+<p><strong>Descripción:</strong> Este gráfico dinámico presenta la proporción de empleadores en relación con el empleo total en varios países de América Latina, permitiendo seleccionar un año entre 1991 y 2022. La métrica utilizada es el porcentaje de empleadores sobre el total de la fuerza laboral en cada país, lo que permite comparar el nivel de participación empresarial en el mercado laboral latinoamericano. Los datos se obtuvieron en el marco del Día de Datos de la OCDE, proporcionando un contexto de análisis sobre el perfil empresarial en la región.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es identificar la variación en la proporción de empleadores entre los países de América Latina, lo que ofrece una visión sobre el entorno empresarial y la participación de empleadores en la estructura laboral. Esta información es valiosa para analizar el nivel de emprendimiento y las dinámicas del mercado laboral en distintos países de la región.</p>
+<p>Los datos fueron extraídos de <a href="https://data.worldbank.org/indicator/">World Bank Open Data</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="6.OECD" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiN2I3NDU0NjEtOTk4NS00NmQ3LThiNWQtNjUxN2ZiMzRhMmU5IiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Power BI.</p>
+</section>
+</section>
+<section id="distributions-distribuciones" class="level1">
+<h1>Distributions (Distribuciones)</h1>
+<section id="hazards-peligros" class="level2">
+<h2 class="anchored" data-anchor-id="hazards-peligros">Hazards (Peligros)</h2>
+<p><strong>Descripción:</strong> Este mapa global representa el número de muertes por accidentes de tránsito en 2021, utilizando datos de la Organización Mundial de la Salud (OMS). Cada país está coloreado en función del rango de muertes registradas, donde los tonos oscuros indican un mayor número de fallecimientos y los tonos claros representan cifras menores. Este mapa ilustra las variaciones en mortalidad por accidentes de tránsito en diferentes regiones, proporcionando una perspectiva visual sobre los peligros asociados al transporte en cada país.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es destacar las disparidades globales en la mortalidad por accidentes de tránsito, identificando áreas donde estos incidentes representan un riesgo más significativo para la salud pública. Esto permite a los investigadores y a los responsables de políticas enfocarse en mejorar la seguridad vial en regiones con alta incidencia de mortalidad.</p>
+<p>Los datos fueron extraídos de <a href="https://data.who.int/indicators/i/B9D9E6A/D6176E2?m49=218">World Health Organization</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="Muertes por accidentes de tránsito en 2021" aria-label="Mapa" id="datawrapper-chart-OJQwm" src="https://datawrapper.dwcdn.net/OJQwm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="447" data-external="1">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+</div>
+<p><strong>Herramienta:</strong> Datawrapper.</p>
+</section>
+<section id="circular" class="level2">
+<h2 class="anchored" data-anchor-id="circular">Circular</h2>
+<p><strong>Descripción:</strong> Este gráfico de barras semicircular muestra la tasa de infección por VIH por cada 1,000 personas en distintas regiones del mundo, destacando las diferencias en la prevalencia del VIH entre regiones. Los colores específicos representan cada región: África, Américas, Mediterráneo Oriental, Europa, Sudeste Asiático y Pacífico Occidental. Los datos resaltan la carga desproporcionada del VIH en ciertas regiones, especialmente en África.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es proporcionar una comparación clara de la prevalencia del VIH en diversas regiones globales, identificando áreas de mayor incidencia. Este enfoque permite visualizar de manera efectiva la desigualdad en la distribución de infecciones de VIH y resalta las regiones que pueden necesitar una mayor atención en términos de prevención y tratamiento.</p>
+<p>Los datos fueron extraídos de <a href="https://data.who.int/">https://data.who.int/</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("ggplot2")</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar librerías necesarias</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Leer el dataset</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>HIV_infections_h_m <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Data/HIV infections h-m.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 14801 Columns: 15</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (11): IND_ID, IND_CODE, IND_UUID, IND_PER_CODE, DIM_TIME_TYPE, DIM_GEO_C...
+dbl  (4): DIM_TIME, RATE_PER_1000_N, RATE_PER_1000_NL, RATE_PER_1000_NU
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar los datos para usar solo las filas donde DIM_GEO_CODE_TYPE es "WHOREGION" y DIM_SEX es "TOTAL"</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="ot">&lt;-</span> HIV_infections_h_m <span class="sc">%&gt;%</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(DIM_GEO_CODE_TYPE <span class="sc">==</span> <span class="st">"WHOREGION"</span>, DIM_SEX <span class="sc">==</span> <span class="st">"TOTAL"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(GEO_NAME_SHORT, RATE_PER_1000_N)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Colores específicos para cada región</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>custom_colors <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Africa"</span> <span class="ot">=</span> <span class="st">"#D73027"</span>,       <span class="co"># Rojo para África</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Americas"</span> <span class="ot">=</span> <span class="st">"#FC8D59"</span>,     <span class="co"># Naranja para Américas</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Eastern Mediterranean"</span> <span class="ot">=</span> <span class="st">"#FEE08B"</span>, <span class="co"># Amarillo  para Mediterráneo Oriental</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Europe"</span> <span class="ot">=</span> <span class="st">"#91BFDB"</span>,       <span class="co"># Azul  para Europa</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>  <span class="st">"South-East Asia"</span> <span class="ot">=</span> <span class="st">"#4575B4"</span>, <span class="co"># Azul para Sudeste Asiático</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Western Pacific"</span> <span class="ot">=</span> <span class="st">"#542788"</span>  <span class="co"># Morado para Pacífico Occidental</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear gráfico de barras semicircular </span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(filtered_data, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(GEO_NAME_SHORT, RATE_PER_1000_N), <span class="at">y =</span> RATE_PER_1000_N, <span class="at">fill =</span> GEO_NAME_SHORT)) <span class="sc">+</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_polar</span>(<span class="at">theta =</span> <span class="st">"y"</span>, <span class="at">start =</span> <span class="sc">-</span>pi <span class="sc">/</span> <span class="dv">2</span>) <span class="sc">+</span>  </span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="dv">0</span>, <span class="dv">100</span>) <span class="sc">+</span>  <span class="co"># Establece el límite máximo en 100</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="sc">+</span></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">angle =</span> <span class="dv">90</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">face =</span> <span class="st">"bold"</span>)</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"La tasa de infección por VIH por cada 1,000 personas por Región"</span>,</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Región"</span>  <span class="co"># Cambia el nombre de la leyenda a "Región"</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> custom_colors)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-3-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> R con <code>ggplot2</code>.</p>
+</section>
+<section id="majorminor-mayormenor" class="level2">
+<h2 class="anchored" data-anchor-id="majorminor-mayormenor">Major/minor (Mayor/menor)</h2>
+<p><strong>Descripción:</strong> Este gráfico de lollipop muestra la tasa de suicidios por cada 100,000 personas, desglosada por género y por grupo de economías en función de los ingresos (altos, medios-altos, medios-bajos y bajos). La visualización destaca las diferencias en la tasa de suicidios entre hombres y mujeres en diferentes contextos económicos, con colores diferenciados para cada género (rosa para mujeres y azul para hombres). Este gráfico ilustra cómo los factores económicos pueden influir en la tasa de suicidios de manera diferenciada entre géneros.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar la disparidad en la tasa de suicidios entre hombres y mujeres en función del contexto económico, proporcionando una perspectiva sobre cómo la economía y el género pueden estar relacionados con la salud mental y el riesgo de suicidio. Este enfoque permite identificar patrones específicos que pueden ser útiles para las políticas de salud pública.</p>
+<p>Los datos fueron extraídos de <a href="https://data.who.int/indicators/i/F08B4FD/16BBF41">World Health OrganizationData</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("dplyr")</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el dataset</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>suicide_deaths <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Data/Suicide deaths.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 17518 Columns: 16
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (12): IND_ID, IND_CODE, IND_UUID, IND_PER_CODE, DIM_TIME_TYPE, DIM_GEO_C...
+dbl  (4): DIM_TIME, RATE_PER_100000_N, RATE_PER_100000_NL, RATE_PER_100000_NU
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar y seleccionar las columnas deseadas</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="ot">&lt;-</span> suicide_deaths <span class="sc">%&gt;%</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(DIM_GEO_CODE_TYPE <span class="sc">==</span> <span class="st">"WORLDBANKINCOMEGROUP"</span>, DIM_SEX <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"MALE"</span>, <span class="st">"FEMALE"</span>), DIM_TIME <span class="sc">==</span> <span class="dv">2019</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(DIM_GEO_CODE_TYPE, RATE_PER_100000_N, GEO_NAME_SHORT, DIM_SEX)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("ggplot2")</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de lollipop</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(filtered_data, <span class="fu">aes</span>(<span class="at">x =</span> GEO_NAME_SHORT, <span class="at">y =</span> RATE_PER_100000_N, <span class="at">color =</span> DIM_SEX)) <span class="sc">+</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> GEO_NAME_SHORT, <span class="at">xend =</span> GEO_NAME_SHORT, <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> RATE_PER_100000_N),</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>               <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span>  <span class="co"># Grosor de las líneas</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span>  <span class="co"># Tamaño de los puntos</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">round</span>(RATE_PER_100000_N, <span class="dv">1</span>)), </span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">vjust =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>) <span class="sc">+</span>  </span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"FEMALE"</span> <span class="ot">=</span> <span class="st">"pink"</span>, <span class="st">"MALE"</span> <span class="ot">=</span> <span class="st">"blue"</span>),</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"FEMALE"</span> <span class="ot">=</span> <span class="st">"MUJER"</span>, <span class="st">"MALE"</span> <span class="ot">=</span> <span class="st">"HOMBRE"</span>)) <span class="sc">+</span> </span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">labels =</span> <span class="fu">c</span>(</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Upper-middle-income economies"</span> <span class="ot">=</span> <span class="st">"Economías de</span><span class="sc">\n</span><span class="st">ingresos</span><span class="sc">\n</span><span class="st">medios-altos"</span>,</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Low-income economies"</span> <span class="ot">=</span> <span class="st">"Economías de</span><span class="sc">\n</span><span class="st">ingresos bajos"</span>,</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"High-income economies"</span> <span class="ot">=</span> <span class="st">"Economías de</span><span class="sc">\n</span><span class="st">ingresos altos"</span>,</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Lower-middle-income economies"</span> <span class="ot">=</span> <span class="st">"Economías de</span><span class="sc">\n</span><span class="st">ingresos</span><span class="sc">\n</span><span class="st">medios-bajos"</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">+</span>  <span class="co"># Cambia etiquetas de las economías y divide en líneas</span></span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Lollipop Chart de Tasa de Suicidios por Género"</span>,</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Grupo de Economías"</span>, <span class="at">y =</span> <span class="st">"Tasa por 100,000"</span>) <span class="sc">+</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">0</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">8</span>),</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">20</span>, <span class="at">r =</span> <span class="dv">10</span>, <span class="at">b =</span> <span class="dv">10</span>, <span class="at">l =</span> <span class="dv">10</span>)  </span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> DIM_SEX, <span class="at">labeller =</span> <span class="fu">as_labeller</span>(<span class="fu">c</span>(<span class="st">"FEMALE"</span> <span class="ot">=</span> <span class="st">"MUJER"</span>, <span class="st">"MALE"</span> <span class="ot">=</span> <span class="st">"HOMBRE"</span>)))  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> R con <code>ggplot2</code>.</p>
+</section>
+<section id="physical-físico" class="level2">
+<h2 class="anchored" data-anchor-id="physical-físico">Physical (Físico)</h2>
+<p><strong>Descripción:</strong> Este gráfico de líneas muestra la evolución de la esperanza de vida en distintas regiones del mundo entre los años 2000 y 2021. Cada línea representa una región específica (Pacífico Occidental, Europa, Américas, Sudeste Asiático, Mediterráneo Oriental y África) y sigue la tendencia de la esperanza de vida a lo largo del tiempo. Los datos revelan cómo las condiciones de vida, la atención sanitaria y otros factores han afectado la longevidad en cada región.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es comparar la evolución de la esperanza de vida en diversas regiones globales, destacando las disparidades y tendencias en la longevidad. Este análisis permite identificar las regiones donde la esperanza de vida ha mejorado y aquellas donde los desafíos persisten, proporcionando información valiosa para el desarrollo de políticas de salud y calidad de vida.</p>
+<p>Los datos fueron extraídos de <a href="https://data.who.int/indicators/i/48D9B0C/C64284D">World Health Organization</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/e9c9408f-0e1b-434c-aaf5-2217ec31c6ef/page/c6aJE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="mobile-friendly" class="level2">
+<h2 class="anchored" data-anchor-id="mobile-friendly">Mobile-friendly</h2>
+<p><strong>Descripción:</strong> Esta tabla visual muestra la cantidad de personas que viven con tuberculosis en distintos países entre los años 2020 y 2022. Cada columna representa un año (2020, 2021 y 2022), y cada fila corresponde a un país. Los datos están organizados para facilitar la comparación entre los tres años, destacando los cambios en la prevalencia de tuberculosis en cada país. La información ha sido obtenida de la Organización Mundial de la Salud (OMS).</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es rastrear la evolución de la prevalencia de tuberculosis en varios países a lo largo de tres años, permitiendo identificar tendencias y cambios significativos. Este análisis es crucial para entender cómo la tuberculosis se ha comportado en diferentes regiones y evaluar la efectividad de las políticas de salud pública en la lucha contra esta enfermedad.</p>
+<p>Los datos fueron extraídos de <a href="https://data.who.int/countries/218">World Health Organization</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="Tuberculosis en el mundo (2020-2022)" aria-label="Split Bars" id="datawrapper-chart-rsMjC" src="https://datawrapper.dwcdn.net/rsMjC/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="4359" data-external="1">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+</div>
+<p><strong>Herramienta:</strong> Datawrapper.</p>
+</section>
+<section id="reuters-graphics-día-temático-de-reuters" class="level2">
+<h2 class="anchored" data-anchor-id="reuters-graphics-día-temático-de-reuters">Reuters Graphics (Día temático de Reuters)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra la evolución de las emisiones anuales de CO₂ (en toneladas métricas) entre 1990 y 2020 para Colombia, Ecuador, Perú y España. Se han añadido sombreado para señalar dos periodos de crisis global: la crisis financiera de 2008-2009 y la pandemia de COVID-19 en 2020-2021, lo que permite analizar cómo estos eventos impactaron en las emisiones. Además, se incluye una línea horizontal punteada que representa el promedio de emisiones en los cuatro países.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es comparar las tendencias de emisiones de CO₂ en diferentes países de América Latina y Europa, resaltando cómo eventos económicos y sanitarios globales afectan los niveles de emisión. Este análisis puede servir para evaluar los efectos de las crisis en la reducción o incremento de emisiones y proporcionar una perspectiva sobre los esfuerzos en mitigación de cambio climático.</p>
+<p>Los datos fueron extraídos de <a href="https://ourworldindata.org/co2-emission">Our World in Data</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar las librerías necesarias</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'scales'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:readr':
+
+    col_factor</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el archivo CSV</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>annual_co2_emissions_per_country <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Data/annual-co2-emissions-per-country.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 30308 Columns: 4</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): Entity, Code
+dbl (2): Year, Annual CO₂ emissions
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar por los países específicos y seleccionar solo las columnas necesarias desde el año 1990 en adelante</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="ot">&lt;-</span> annual_co2_emissions_per_country <span class="sc">%&gt;%</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Entity <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Ecuador"</span>, <span class="st">"Colombia"</span>, <span class="st">"Peru"</span>, <span class="st">"Spain"</span>), Year <span class="sc">&gt;=</span> <span class="dv">1990</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Entity, Year, <span class="st">`</span><span class="at">Annual CO₂ emissions</span><span class="st">`</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular el promedio de emisiones entre los países para cada año</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>average_emissions <span class="ot">&lt;-</span> filtered_data <span class="sc">%&gt;%</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">mean_emission =</span> <span class="fu">mean</span>(<span class="st">`</span><span class="at">Annual CO₂ emissions</span><span class="st">`</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de líneas con sombreado y etiquetas para los periodos específicos</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(filtered_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> <span class="st">`</span><span class="at">Annual CO₂ emissions</span><span class="st">`</span>, <span class="at">color =</span> Entity)) <span class="sc">+</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Agregar sombreado para la crisis financiera de 2008 (2008-2009)</span></span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"rect"</span>, <span class="at">xmin =</span> <span class="dv">2008</span>, <span class="at">xmax =</span> <span class="dv">2009</span>, <span class="at">ymin =</span> <span class="sc">-</span><span class="cn">Inf</span>, <span class="at">ymax =</span> <span class="cn">Inf</span>, </span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>           <span class="at">fill =</span> <span class="st">"gray"</span>, <span class="at">alpha =</span> <span class="fl">0.2</span>) <span class="sc">+</span></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Agregar sombreado para la pandemia de COVID-19 (2020-2021)</span></span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"rect"</span>, <span class="at">xmin =</span> <span class="dv">2020</span>, <span class="at">xmax =</span> <span class="dv">2021</span>, <span class="at">ymin =</span> <span class="sc">-</span><span class="cn">Inf</span>, <span class="at">ymax =</span> <span class="cn">Inf</span>, </span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>           <span class="at">fill =</span> <span class="st">"gray"</span>, <span class="at">alpha =</span> <span class="fl">0.2</span>) <span class="sc">+</span></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Dibujar las líneas de los países sobre el sombreado</span></span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Agregar una línea horizontal punteada con el promedio de emisiones</span></span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="fu">aes</span>(<span class="at">yintercept =</span> <span class="fu">mean</span>(mean_emission)), </span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>             <span class="at">data =</span> average_emissions, </span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>             <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Etiqueta para la línea de promedio justo encima de la línea</span></span>
+<span id="cb21-31"><a href="#cb21-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">1995</span>, <span class="at">y =</span> <span class="fu">mean</span>(average_emissions<span class="sc">$</span>mean_emission) <span class="sc">*</span> <span class="fl">1.1</span>, </span>
+<span id="cb21-32"><a href="#cb21-32" aria-hidden="true" tabindex="-1"></a>           <span class="at">label =</span> <span class="fu">paste</span>(<span class="st">"Promedio:"</span>, scales<span class="sc">::</span><span class="fu">comma</span>(<span class="fu">mean</span>(average_emissions<span class="sc">$</span>mean_emission))), </span>
+<span id="cb21-33"><a href="#cb21-33" aria-hidden="true" tabindex="-1"></a>           <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">hjust =</span> <span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb21-34"><a href="#cb21-34" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-35"><a href="#cb21-35" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Agregar etiquetas horizontales de los periodos sombreados con negrilla</span></span>
+<span id="cb21-36"><a href="#cb21-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">2004</span>, <span class="at">y =</span> <span class="fu">max</span>(filtered_data<span class="sc">$</span><span class="st">`</span><span class="at">Annual CO₂ emissions</span><span class="st">`</span>)<span class="sc">*</span><span class="fl">1.05</span>, </span>
+<span id="cb21-37"><a href="#cb21-37" aria-hidden="true" tabindex="-1"></a>           <span class="at">label =</span> <span class="st">"Crisis Financiera 2008"</span>, <span class="at">color =</span> <span class="st">"gray30"</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>) <span class="sc">+</span></span>
+<span id="cb21-38"><a href="#cb21-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="fl">2016.5</span>, <span class="at">y =</span> <span class="fu">max</span>(filtered_data<span class="sc">$</span><span class="st">`</span><span class="at">Annual CO₂ emissions</span><span class="st">`</span>)<span class="sc">*</span><span class="fl">1.05</span>, </span>
+<span id="cb21-39"><a href="#cb21-39" aria-hidden="true" tabindex="-1"></a>           <span class="at">label =</span> <span class="st">"Pandemia COVID-19"</span>, <span class="at">color =</span> <span class="st">"gray30"</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>) <span class="sc">+</span></span>
+<span id="cb21-40"><a href="#cb21-40" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb21-41"><a href="#cb21-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb21-42"><a href="#cb21-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Evolución de las Emisiones de CO2 (1990-2020)"</span>,</span>
+<span id="cb21-43"><a href="#cb21-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Comparación entre Colombia, Ecuador, Perú y España"</span>,</span>
+<span id="cb21-44"><a href="#cb21-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Año"</span>,</span>
+<span id="cb21-45"><a href="#cb21-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Emisiones anuales de CO2 (toneladas métricas)"</span>,</span>
+<span id="cb21-46"><a href="#cb21-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"País"</span></span>
+<span id="cb21-47"><a href="#cb21-47" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb21-48"><a href="#cb21-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> comma, <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.2</span>))) <span class="sc">+</span></span>
+<span id="cb21-49"><a href="#cb21-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb21-50"><a href="#cb21-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb21-51"><a href="#cb21-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb21-52"><a href="#cb21-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb21-53"><a href="#cb21-53" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb21-54"><a href="#cb21-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb21-55"><a href="#cb21-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"bottom"</span></span>
+<span id="cb21-56"><a href="#cb21-56" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb21-57"><a href="#cb21-57" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> R con <code>ggplot2</code>.</p>
+</section>
+</section>
+<section id="relationships-relaciones" class="level1">
+<h1>Relationships (Relaciones)</h1>
+<section id="family-familia" class="level2">
+<h2 class="anchored" data-anchor-id="family-familia">Family (Familia)</h2>
+<p><strong>Descripción:</strong> Este gráfico de red muestra los lazos familiares de las casas en la serie Juego de Tronos, visualizando las conexiones entre los miembros de cada familia y sus relaciones. Cada nodo representa un miembro de la familia, mientras que las líneas conectan a los individuos con sus familiares directos (padres, hijos, hermanos). La interfaz permite seleccionar cualquier casa para explorar diferentes conexiones familiares en el universo de la serie.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es explorar las relaciones familiares en Juego de Tronos, permitiendo al usuario seleccionar una casa a la vez para analizar sus vínculos internos y conexiones con los miembros de esa familia específica. Esta representación facilita la comprensión de las dinámicas familiares de la serie, ofreciendo a los fanáticos una herramienta visual para examinar las interacciones y relaciones entre los personajes de cada casa en el universo de Juego de Tronos.</p>
+<p>Los datos fueron extraídos de <strong>ChatGPT</strong> en el cual se pidio Árbol genealógico de Game of Thrones EN CSV. Los datos fueron solicitados a ChatGPT en formato CSV con la informacion de sus relaciones familiares de Game of Thrones.</p>
+<div class="responsive-iframe-container">
+<iframe title="13.Family" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYWU5YWE4YmQtZGRmYy00ODI3LWFkYjctOWI5OGQ0ZDViYjZjIiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Power BI.</p>
+</section>
+<section id="heatmap-mapa-de-calor" class="level2">
+<h2 class="anchored" data-anchor-id="heatmap-mapa-de-calor">Heatmap (Mapa de calor)</h2>
+<p><strong>Descripción:</strong> Este mapa de calor muestra la correlación entre diversos factores sociales y académicos de estudiantes, incluyendo variables como tiempo de estudio, fracaso escolar, relación familiar, tiempo libre, y consumo de alcohol. Cada celda representa el coeficiente de correlación entre dos variables, con colores que indican la intensidad y dirección de la relación (positivo o negativo). Los tonos más rojos indican una correlación positiva más fuerte, mientras que los tonos azules representan correlaciones negativas.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es identificar posibles relaciones entre factores sociales y académicos en los estudiantes, proporcionando una comprensión de cómo ciertos hábitos y relaciones pueden influir en el rendimiento académico. Este análisis puede ser útil para diseñar intervenciones orientadas a mejorar el éxito académico mediante el enfoque en factores sociales.</p>
+<p>Los datos fueron extraídos de <a href="https://archive.ics.uci.edu/dataset/320/student+performance">UC Irvine Machine Learning Repository</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>student_mat <span class="ot">&lt;-</span> <span class="fu">read_delim</span>(<span class="st">"Data/student-mat.csv"</span>, <span class="at">delim =</span> <span class="st">";"</span>, <span class="at">escape_double =</span> <span class="cn">FALSE</span>, <span class="at">trim_ws =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 395 Columns: 33
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ";"
+chr (17): school, sex, address, famsize, Pstatus, Mjob, Fjob, reason, guardi...
+dbl (16): age, Medu, Fedu, traveltime, studytime, failures, famrel, freetime...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar las librerías necesarias</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(reshape2)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtra solo las columnas de interés para el análisis</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>student_selected <span class="ot">&lt;-</span> student_mat <span class="sc">%&gt;%</span> <span class="fu">select</span>(studytime, failures, famrel, freetime, goout, Dalc, Walc)</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcula la matriz de correlación</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="ot">&lt;-</span> <span class="fu">cor</span>(student_selected, <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Convierte la matriz en formato largo para ggplot2</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>corr_melt <span class="ot">&lt;-</span> reshape2<span class="sc">::</span><span class="fu">melt</span>(corr_matrix)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Cambia los nombres de las variables a etiquetas más descriptivas</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>labels <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"studytime"</span> <span class="ot">=</span> <span class="st">"Tiempo de </span><span class="sc">\n</span><span class="st">Estudio"</span>, <span class="st">"failures"</span> <span class="ot">=</span> <span class="st">"Fracaso </span><span class="sc">\n</span><span class="st">Escolar"</span>,</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>            <span class="st">"famrel"</span> <span class="ot">=</span> <span class="st">"Relación </span><span class="sc">\n</span><span class="st">Familiar"</span>, <span class="st">"freetime"</span> <span class="ot">=</span> <span class="st">"Tiempo Libre"</span>,</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>            <span class="st">"goout"</span> <span class="ot">=</span> <span class="st">"Salir con </span><span class="sc">\n</span><span class="st">Amigos"</span>, <span class="st">"Dalc"</span> <span class="ot">=</span> <span class="st">"Alcohol entre </span><span class="sc">\n</span><span class="st">Semana"</span>,</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Walc"</span> <span class="ot">=</span> <span class="st">"Alcohol en </span><span class="sc">\n</span><span class="st">Fin de Semana"</span>)</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>corr_melt<span class="sc">$</span>Var1 <span class="ot">&lt;-</span> <span class="fu">factor</span>(corr_melt<span class="sc">$</span>Var1, <span class="at">levels =</span> <span class="fu">names</span>(labels), <span class="at">labels =</span> labels)</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>corr_melt<span class="sc">$</span>Var2 <span class="ot">&lt;-</span> <span class="fu">factor</span>(corr_melt<span class="sc">$</span>Var2, <span class="at">levels =</span> <span class="fu">names</span>(labels), <span class="at">labels =</span> labels)</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Crea el mapa de calor con etiquetas, títulos y estética personalizada</span></span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> corr_melt, <span class="fu">aes</span>(<span class="at">x =</span> Var1, <span class="at">y =</span> Var2, <span class="at">fill =</span> value)) <span class="sc">+</span></span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span></span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient2</span>(<span class="at">low =</span> <span class="st">"blue"</span>, <span class="at">high =</span> <span class="st">"red"</span>, <span class="at">mid =</span> <span class="st">"white"</span>, <span class="at">midpoint =</span> <span class="dv">0</span>, </span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a>                       <span class="at">limit =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>), <span class="at">name =</span> <span class="st">"Correlación"</span>) <span class="sc">+</span></span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">round</span>(value, <span class="dv">2</span>)), <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb24-29"><a href="#cb24-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb24-30"><a href="#cb24-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">0</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">10</span>), </span>
+<span id="cb24-31"><a href="#cb24-31" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">0</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>), </span>
+<span id="cb24-32"><a href="#cb24-32" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb24-33"><a href="#cb24-33" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb24-34"><a href="#cb24-34" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb24-35"><a href="#cb24-35" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb24-36"><a href="#cb24-36" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>)) <span class="sc">+</span></span>
+<span id="cb24-37"><a href="#cb24-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Mapa de Calor de Correlación entre Factores Sociales y Académicos"</span>,</span>
+<span id="cb24-38"><a href="#cb24-38" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Variables"</span>, <span class="at">y =</span> <span class="st">"Variables"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> R con <code>ggplot2</code>.</p>
+</section>
+<section id="historical-histórico" class="level2">
+<h2 class="anchored" data-anchor-id="historical-histórico">Historical (Histórico)</h2>
+<p><strong>Descripción:</strong> Este gráfico de línea muestra la evolución de la tasa de suicidios (por cada 100,000 personas) desde el año 2000 hasta 2019. La línea azul representa la tasa anual de suicidios, mientras que la línea horizontal punteada muestra la media de toda la serie (10.42). La visualización permite observar la tendencia a la baja en la tasa de suicidios a lo largo de los años, con la opción de filtrar por año y región.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar las tendencias en la tasa de suicidios a nivel global o regional en un periodo de casi dos décadas. Este análisis permite identificar si existen patrones de disminución o aumento, proporcionando información útil para entender y abordar los factores que influyen en la salud mental a lo largo del tiempo.</p>
+<p>Los datos fueron extraídos de <a href="https://data.who.int/indicators/i/F08B4FD/16BBF41">Our World in Data</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/556eacb1-8a2e-413e-a420-1223f29fdd9f/page/p_9x9qjc2lmd" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="weather-clima" class="level2">
+<h2 class="anchored" data-anchor-id="weather-clima">Weather (Clima)</h2>
+<p><strong>Descripción:</strong> Este mapa de calor global muestra la precipitación promedio en milímetros durante el periodo 1990-1995. Utilizando una escala de color que va de tonos morados a verdes, el mapa destaca las áreas con diferentes niveles de precipitación. Las zonas en amarillo representan niveles más altos de precipitación, mientras que los tonos morados indican niveles más bajos. Este mapa proporciona una visualización de los patrones de precipitación a nivel mundial.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar la distribución de la precipitación promedio en el mundo durante un periodo específico, permitiendo identificar regiones con mayores o menores niveles de lluvia. Esta información es útil para estudios de clima y geografía, así como para comprender los patrones de precipitación en diversas áreas geográficas.</p>
+<p>Los datos fueron extraídos de <a href="https://data.giss.nasa.gov/precip_dai/">Nasa</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xarray <span class="im">as</span> xr</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> cartopy.crs <span class="im">as</span> ccrs</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> cartopy.feature <span class="im">as</span> cfeature</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el archivo NetCDF</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>file_path <span class="op">=</span> <span class="st">'Data/precip1850-1995.nc'</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> xr.open_dataset(file_path)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Seleccionar los años de interés y calcular el promedio en el tiempo (año y mes)</span></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>precip_data <span class="op">=</span> ds[<span class="st">'precip'</span>].sel(year<span class="op">=</span><span class="bu">slice</span>(<span class="dv">1990</span>, <span class="dv">1995</span>), month<span class="op">=</span><span class="bu">slice</span>(<span class="dv">1</span>, <span class="dv">12</span>)).mean(dim<span class="op">=</span>[<span class="st">'year'</span>, <span class="st">'month'</span>])</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear la figura y el mapa de proyección usando Cartopy</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">16</span>, <span class="dv">10</span>), subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: ccrs.PlateCarree()})</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>ax.set_global()  <span class="co"># Configura el mapa para que se ajuste a la vista global</span></span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>ax.coastlines()  <span class="co"># Añade las líneas de costa</span></span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>ax.add_feature(cfeature.BORDERS, linestyle<span class="op">=</span><span class="st">':'</span>, edgecolor<span class="op">=</span><span class="st">'gray'</span>)  <span class="co"># Añade fronteras</span></span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Añadir características de tierra y océano para el fondo</span></span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>ax.add_feature(cfeature.LAND, facecolor<span class="op">=</span><span class="st">'lightgray'</span>)</span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>ax.add_feature(cfeature.OCEAN, facecolor<span class="op">=</span><span class="st">'lightblue'</span>)</span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Graficar el mapa de calor sobre el mapa del mundo</span></span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>heatmap <span class="op">=</span> ax.pcolormesh(precip_data.lon, precip_data.lat, precip_data, cmap<span class="op">=</span><span class="st">"viridis"</span>, vmin<span class="op">=</span><span class="dv">0</span>, vmax<span class="op">=</span><span class="dv">25</span>, transform<span class="op">=</span>ccrs.PlateCarree())</span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustes de la barra de color</span></span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a>cbar <span class="op">=</span> plt.colorbar(heatmap, ax<span class="op">=</span>ax, orientation<span class="op">=</span><span class="st">"vertical"</span>, fraction<span class="op">=</span><span class="fl">0.02</span>, pad<span class="op">=</span><span class="fl">0.04</span>)</span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a>cbar.set_label(<span class="st">'Precipitación (mm)'</span>)</span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a>cbar.set_ticks([<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">15</span>, <span class="dv">20</span>, <span class="dv">25</span>])</span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Título del gráfico</span></span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Mapa de Calor de Precipitación Promedio (1990-1995)"</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Guardar la imagen en alta resolución</span></span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">"mapa_calor_precipitacion_mundo.png"</span>, dpi<span class="op">=</span><span class="dv">300</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="1536"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> Python con <code>matplotlib</code>, <code>xarray</code> y <code>cartopy</code>.</p>
+</section>
+<section id="networks-redes" class="level2">
+<h2 class="anchored" data-anchor-id="networks-redes">Networks (Redes)</h2>
+<p><strong>Descripción:</strong> Este diagrama de Sankey muestra las conexiones aéreas desde aeropuertos en Ecuador hacia diferentes países de destino. Cada flujo representa la ruta de conexión desde un aeropuerto específico en Ecuador (identificado por su código IATA) hasta los países de destino. Las bandas de colores facilitan la visualización de la distribución y frecuencia de vuelos entre Ecuador y otros países, destacando las principales rutas de salida internacional.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar las rutas de conexión aérea desde Ecuador hacia otros países, proporcionando una perspectiva sobre las relaciones de conectividad internacional y el tráfico aéreo de salida. Este análisis es útil para identificar los principales destinos internacionales de Ecuador y entender la infraestructura de transporte aéreo en el país.</p>
+<p>Los datos fueron extraídos de <a href="https://openflights.org/data.php">Open Flights</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/902e9eb0-f5b5-46ca-906d-a9e50fcdc2d7/page/r1TKE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="asian-development-bank-día-de-datos-del-banco-asiático-de-desarrollo" class="level2">
+<h2 class="anchored" data-anchor-id="asian-development-bank-día-de-datos-del-banco-asiático-de-desarrollo">Asian Development Bank (Día de datos del Banco Asiático de Desarrollo)</h2>
+<p><strong>Descripción:</strong> Este mapa muestra el financiamiento otorgado por el Banco Asiático de Desarrollo (ADB) a diversos países en el año 2024. Los colores indican el monto total en dólares estadounidenses recibido por cada país, donde los tonos más intensos representan una mayor cantidad de fondos. El financiamiento está destinado a proyectos de desarrollo en infraestructura, sostenibilidad, educación y otras áreas estratégicas para apoyar el crecimiento y la estabilidad económica en la región de Asia y el Pacífico.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es ilustrar la distribución del financiamiento del ADB en Asia y el Pacífico, destacando los países que reciben los mayores montos de apoyo financiero. Este análisis permite entender las prioridades de inversión del ADB en la región y cómo estos fondos están dirigidos a impulsar el desarrollo en sectores clave.</p>
+<p>Los datos fueron extraídos de <a href="https://data.adb.org/dataset/operational-procurement-database">ADB Data Library</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="Monto financiado por el Banco Asiático de Desarrollo en 2024" aria-label="Map" id="datawrapper-chart-shWTT" src="https://datawrapper.dwcdn.net/shWTT/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="457" data-external="1">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+</div>
+<p><strong>Herramienta:</strong> Datawrapper.</p>
+</section>
+</section>
+<section id="timeseries-series-de-tiempo" class="level1">
+<h1>Timeseries (Series de tiempo)</h1>
+<section id="dinosaurs-dinosaurios" class="level2">
+<h2 class="anchored" data-anchor-id="dinosaurs-dinosaurios">Dinosaurs (Dinosaurios)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra la diversidad de especies de dinosaurios a lo largo de diferentes periodos de tiempo, en millones de años. La línea suavizada representa el número estimado de especies en cada periodo, aplicando una media móvil para reducir la variabilidad en los datos y facilitar la identificación de tendencias. Los picos y valles indican los momentos de mayor y menor diversidad de dinosaurios en el registro fósil.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar la evolución de la diversidad de dinosaurios a lo largo de millones de años, proporcionando una perspectiva sobre cómo han cambiado las especies en función de factores ambientales y eventos naturales. Este análisis es valioso para los paleontólogos y aficionados a la historia natural interesados en la dinámica de extinción y surgimiento de especies.</p>
+<p>Los datos fueron extraídos de <a href="https://paleobiodb.org/classic/displayDownloadGenerator">The Paleobiology Database</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar los datos y omitir las primeras 19 filas</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">"Data/pbdb_data.csv"</span>, skiprows<span class="op">=</span><span class="dv">19</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajuste en la definición de bins para que sean ascendentes</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>bins <span class="op">=</span> <span class="bu">range</span>(<span class="bu">int</span>(data[<span class="st">'min_ma'</span>].<span class="bu">min</span>()) <span class="op">-</span> <span class="dv">1</span>, <span class="bu">int</span>(data[<span class="st">'max_ma'</span>].<span class="bu">max</span>()) <span class="op">+</span> <span class="dv">1</span>, <span class="dv">10</span>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>data[<span class="st">'period'</span>] <span class="op">=</span> pd.cut(data[<span class="st">'max_ma'</span>], bins<span class="op">=</span>bins)</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Agrupar y contar por periodo de tiempo</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>diversity_over_time <span class="op">=</span> data.groupby(<span class="st">'period'</span>).size()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;string&gt;:3: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir el índice de diversity_over_time en numérico para evitar problemas con el gráfico</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>diversity_over_time.index <span class="op">=</span> <span class="bu">range</span>(<span class="bu">len</span>(diversity_over_time))</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Aplicar una media móvil para suavizar la línea</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>diversity_smoothed <span class="op">=</span> diversity_over_time.rolling(window<span class="op">=</span><span class="dv">3</span>, center<span class="op">=</span><span class="va">True</span>).mean()</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Eliminar valores NaN que puedan haber surgido del suavizado</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>diversity_smoothed <span class="op">=</span> diversity_smoothed.dropna()</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>plt.plot(diversity_smoothed, color<span class="op">=</span><span class="st">'teal'</span>, linestyle<span class="op">=</span><span class="st">'-'</span>, marker<span class="op">=</span><span class="st">'o'</span>, markersize<span class="op">=</span><span class="dv">4</span>, label<span class="op">=</span><span class="st">'Diversidad Suavizada'</span>)</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>plt.fill_between(diversity_smoothed.index, diversity_smoothed, color<span class="op">=</span><span class="st">'lightblue'</span>, alpha<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Añadir etiquetas y título</span></span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Diversidad de Dinosaurios a lo Largo del Tiempo"</span>)</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Período (millones de años)"</span>)</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Número de especies"</span>)</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Rotar etiquetas y ajustar texto en el eje X</span></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>plt.xticks(diversity_smoothed.index,</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>           labels<span class="op">=</span>[<span class="ss">f"</span><span class="sc">{</span>i<span class="op">*</span><span class="dv">10</span><span class="sc">}</span><span class="ss">-</span><span class="sc">{</span>(i<span class="op">+</span><span class="dv">1</span>)<span class="op">*</span><span class="dv">10</span><span class="sc">}</span><span class="ss">"</span> <span class="cf">for</span> i <span class="kw">in</span> diversity_smoothed.index],</span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>           rotation<span class="op">=</span><span class="dv">45</span>, ha<span class="op">=</span><span class="st">'right'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>([&lt;matplotlib.axis.XTick object at 0x000001DEBF37CAD0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DE8D08BAD0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DE8F216B50&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF3182D0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9EF650&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9F0A90&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9F2A10&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9F8C10&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9FAC90&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9FB310&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEBF9F2310&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0603510&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0609690&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC060B710&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0611850&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC060ACD0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0613DD0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0615E50&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0617F50&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0619FD0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC061BFD0&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC0613990&gt;, &lt;matplotlib.axis.XTick object at 0x000001DEC061E7D0&gt;], [Text(1, 0, '10-20'), Text(2, 0, '20-30'), Text(3, 0, '30-40'), Text(4, 0, '40-50'), Text(5, 0, '50-60'), Text(6, 0, '60-70'), Text(7, 0, '70-80'), Text(8, 0, '80-90'), Text(9, 0, '90-100'), Text(10, 0, '100-110'), Text(11, 0, '110-120'), Text(12, 0, '120-130'), Text(13, 0, '130-140'), Text(14, 0, '140-150'), Text(15, 0, '150-160'), Text(16, 0, '160-170'), Text(17, 0, '170-180'), Text(18, 0, '180-190'), Text(19, 0, '190-200'), Text(20, 0, '200-210'), Text(21, 0, '210-220'), Text(22, 0, '220-230'), Text(23, 0, '230-240')])</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajuste del rango del eje Y para centrar en el rango de interés</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="dv">0</span>, diversity_smoothed.<span class="bu">max</span>() <span class="op">*</span> <span class="fl">1.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>(0.0, 3745.2)</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar leyenda</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-8-3.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> Python con <code>matplotlib</code> y <code>pandas</code>.</p>
+</section>
+<section id="correlation-correlación" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-correlación">Correlation (Correlación)</h2>
+<p><strong>Descripción:</strong> Este gráfico de líneas muestra la relación entre el crecimiento del PIB anual (en porcentaje) y la tasa de desempleo en Ecuador desde 1990 hasta el año más reciente disponible. La línea azul representa el crecimiento del PIB, mientras que la línea roja indica la tasa de desempleo. Las etiquetas numéricas en cada punto facilitan la interpretación de las variaciones anuales en ambos indicadores, permitiendo observar posibles correlaciones entre el crecimiento económico y el desempleo.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar cómo las variaciones en el crecimiento del PIB pueden estar relacionadas con la tasa de desempleo en Ecuador, proporcionando una visión sobre la dinámica económica del país. Este análisis es útil para identificar tendencias y patrones económicos que podrían orientar decisiones de políticas públicas en términos de crecimiento y empleo.</p>
+<p>Los datos fueron extraídos de <a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=EC">World Bank Open Data</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Carga las librerías</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Carga los datos</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>GDP_UEM <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"Data/GDP-UEM.csv"</span>)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtra los datos para cada indicador</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>gdp_growth <span class="ot">&lt;-</span> GDP_UEM <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">filter</span>(Indicator.Name <span class="sc">==</span> <span class="st">"GDP growth (annual %)"</span>)</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>unemployment <span class="ot">&lt;-</span> GDP_UEM <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">filter</span>(Indicator.Name <span class="sc">==</span> <span class="st">"Unemployment, total (% of total labor force) (modeled ILO estimate)"</span>)</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Convierte la columna Año a numérico </span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>gdp_growth<span class="sc">$</span>Año <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(gdp_growth<span class="sc">$</span>Año)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>unemployment<span class="sc">$</span>Año <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(unemployment<span class="sc">$</span>Año)</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Combina los dos conjuntos de datos</span></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>combined_data <span class="ot">&lt;-</span> <span class="fu">merge</span>(gdp_growth[, <span class="fu">c</span>(<span class="st">"Año"</span>, <span class="st">"Valor"</span>)], unemployment[, <span class="fu">c</span>(<span class="st">"Año"</span>, <span class="st">"Valor"</span>)], <span class="at">by =</span> <span class="st">"Año"</span>, <span class="at">suffixes =</span> <span class="fu">c</span>(<span class="st">"_GDP"</span>, <span class="st">"_Unemployment"</span>))</span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Crea el gráfico con etiquetas</span></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(combined_data, <span class="fu">aes</span>(<span class="at">x =</span> Año)) <span class="sc">+</span></span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> Valor_GDP, <span class="at">color =</span> <span class="st">"GDP growth (annual %)"</span>)) <span class="sc">+</span></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y =</span> Valor_GDP), <span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">y =</span> Valor_GDP, <span class="at">label =</span> <span class="fu">round</span>(Valor_GDP, <span class="dv">1</span>)), <span class="at">vjust =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">color =</span> <span class="st">"blue"</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> Valor_Unemployment, <span class="at">color =</span> <span class="st">"Unemployment, total (%)"</span>)) <span class="sc">+</span></span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y =</span> Valor_Unemployment), <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">y =</span> Valor_Unemployment, <span class="at">label =</span> <span class="fu">round</span>(Valor_Unemployment, <span class="dv">1</span>)), <span class="at">vjust =</span> <span class="fl">1.5</span>, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Crecimiento PIB vs Desempleo en Ecuador"</span>,</span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Año"</span>,</span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Valor (%)"</span>) <span class="sc">+</span></span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="st">""</span>, <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"GDP growth (annual %)"</span> <span class="ot">=</span> <span class="st">"blue"</span>, <span class="st">"Unemployment, total (%)"</span> <span class="ot">=</span> <span class="st">"red"</span>)) <span class="sc">+</span></span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="30DaysDavidBeltran_files/figure-html/unnamed-chunk-9-5.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Herramienta:</strong> R con <code>ggplot2</code>.</p>
+</section>
+<section id="green-energy-energía-verde" class="level2">
+<h2 class="anchored" data-anchor-id="green-energy-energía-verde">Green energy (Energía verde)</h2>
+<p><strong>Descripción:</strong> Este gráfico de área muestra la participación de la energía renovable en la capacidad y generación de electricidad en varios países latinoamericanos entre los años 2000 y 2020. Los datos están desglosados por país, permitiendo al usuario seleccionar uno o varios países (como Argentina, Bolivia, Ecuador, Perú, entre otros) para visualizar combinaciones específicas.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar la evolución de la generación de energía renovable a lo largo del tiempo y comparar esta tendencia entre diferentes países latinoamericanos. Esta herramienta permite observar el avance hacia una matriz energética más sostenible, facilitando el análisis del compromiso y progreso de cada país en la transición hacia energías limpias.</p>
+<p>Los datos fueron extraídos de <a href="https://pxweb.irena.org/pxweb/en/IRENASTAT/IRENASTAT__Power%20Capacity%20and%20Generation/RESHARE_2024_H2.px/">International Renewable Energy Agency</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="21.Green energy (Energía verde)" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiNTIxYmM5YmQtZGEzNC00ODgwLWE3MTAtMGNhMTQ1OWRjYWNmIiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Power BI.</p>
+</section>
+<section id="mobility-movilidad" class="level2">
+<h2 class="anchored" data-anchor-id="mobility-movilidad">Mobility (Movilidad)</h2>
+<p><strong>Descripción:</strong> Este conjunto de gráficos muestra la evolución mensual del número de pasajeros en los diferentes tipos de transporte público de Nueva York (tren, autobús y otros) desde 2010 hasta mediados de 2020. Cada gráfico representa el volumen de pasajeros en millones para un tipo de transporte específico, permitiendo observar cambios y patrones de uso a lo largo del tiempo. Los datos reflejan la disminución abrupta de pasajeros a partir de 2020, probablemente debido al impacto de la pandemia de COVID-19.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Graficoes analizar las tendencias de uso del transporte público en Nueva York, destacando las fluctuaciones en el volumen de pasajeros a lo largo del tiempo y permitiendo identificar el impacto de eventos significativos, como la pandemia. Este análisis es útil para los responsables de políticas de movilidad y planificación urbana en la toma de decisiones estratégicas para mejorar el transporte público.</p>
+<p>Los datos fueron extraídos de <a href="https://www.kaggle.com/datasets/utkarshx27/monthly-transportation-statistics">Kaggle</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/d576e2b5-95d0-465e-93e2-78a8f712432a/page/IY2KE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="tiles-cuadrículas" class="level2">
+<h2 class="anchored" data-anchor-id="tiles-cuadrículas">Tiles (Cuadrículas)</h2>
+<p><strong>Descripción:</strong> Este gráfico de cuadrículas muestra la proporción de generación de energía renovable en diferentes países de América Latina. Cada cuadro representa un país, y el tamaño de cada uno es proporcional a la participación de ese país en la generación total de energía renovable de la región. Los colores ayudan a diferenciar visualmente a los países, destacando a aquellos con una mayor contribución a la generación de energía renovable.</p>
+<p><strong>Objetivo:</strong> El objetivo de este grafico es comparar la participación de distintos países latinoamericanos en la generación de energía renovable, resaltando cuáles son los principales productores de energía limpia en la región. Este análisis es útil para entender la distribución regional de la generación de energías renovables y puede servir de base para estrategias de sostenibilidad y cooperación energética.</p>
+<p>Los datos fueron extraídos de <a href="https://pxweb.irena.org/pxweb/en/IRENASTAT/IRENASTAT__Power%20Capacity%20and%20Generation/RESHARE_2024_H2.px/">International Renewable Energy Agency</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/7dbe2780-1ec6-4a43-be5f-7ae5e030223c/page/NP3KE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="ilo-region-for-africa-día-de-datos-de-la-oit-para-áfrica" class="level2">
+<h2 class="anchored" data-anchor-id="ilo-region-for-africa-día-de-datos-de-la-oit-para-áfrica">ILO Region for Africa (Día de datos de la OIT para África)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra la evolución del empleo de hombres y mujeres en países seleccionados de África entre 1991 y 2022. A la izquierda, la línea azul representa la cantidad de hombres empleados, mientras que a la derecha, la línea rosa muestra la cantidad de mujeres empleadas. Los gráficos permiten observar la tendencia del empleo en cada género a lo largo de los años, reflejando cambios en la cantidad de personas empleadas y permitiendo comparaciones entre ambos géneros.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar las tendencias de empleo en función del género en África, destacando el crecimiento o disminución en la cantidad de personas empleadas en los distintos países y en cada género. Este análisis proporciona una perspectiva sobre la evolución de la igualdad de género en el ámbito laboral y puede ayudar a los responsables de políticas a identificar áreas de mejora en la inclusión laboral.</p>
+<p>Los datos fueron extraídos de <a href="https://ilostat.ilo.org/es/data/">ILOSTAT</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/2e99dd10-f68c-4fa6-9cd9-a104e2b49de9/page/544KE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+</section>
+<section id="uncertainties-incertidumbres" class="level1">
+<h1>Uncertainties (Incertidumbres)</h1>
+<section id="global-change-cambio-global" class="level2">
+<h2 class="anchored" data-anchor-id="global-change-cambio-global">Global change (Cambio global)</h2>
+<p><strong>Descripción:</strong> Este mapa muestra las emisiones de CO₂ por país para el último año disponible. Los países con mayores emisiones se representan en colores más oscuros, indicando su contribución significativa a las emisiones globales. La escala de colores facilita la identificación de las naciones que son mayores emisoras de CO₂, destacando regiones como América del Norte, Asia y algunas partes de Europa.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es ilustrar la distribución global de las emisiones de CO₂, proporcionando una perspectiva sobre los países con mayor impacto en las emisiones de gases de efecto invernadero. Este análisis es clave para identificar las áreas donde es más urgente implementar políticas de reducción de emisiones y para entender la responsabilidad compartida en la crisis climática.</p>
+<p>Los datos fueron extraídos de <a href="https://ourworldindata.org/co2-emissions#:~:text=Cumulative%20CO2%20emissions,trillion%20tonnes%20of%20CO2">Our World in Data</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="Emisiones de CO₂ globales por país" aria-label="Map" id="datawrapper-chart-IKyTT" src="https://datawrapper.dwcdn.net/IKyTT/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="464" data-external="1">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+</div>
+<p><strong>Herramienta:</strong> Datawrapper.</p>
+</section>
+<section id="ai-inteligencia-artificial" class="level2">
+<h2 class="anchored" data-anchor-id="ai-inteligencia-artificial">AI (Inteligencia artificial)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra el rango salarial de distintos puestos de trabajo en inteligencia artificial y ciencia de datos. Cada barra representa el salario mínimo, promedio y máximo para cada rol, diferenciados por color. Los puestos incluyen desde roles técnicos como <em>Data Scientist</em> y <em>Machine Learning Engineer</em> hasta posiciones de liderazgo como <em>Data Analytics Manager</em> y <em>Director of Data Science</em>. Este Grafico permite comparar la compensación entre distintos roles dentro del campo de la IA y la ciencia de datos.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es brindar información sobre la diversidad de salarios en el sector de inteligencia artificial y ciencia de datos, destacando las variaciones en compensación según el tipo de puesto. Este análisis es útil tanto para los profesionales interesados en conocer el potencial salarial de sus roles como para los empleadores que buscan información sobre el mercado laboral.</p>
+<p>Los datos fueron extraídos de <a href="https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries">Kaggle</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="Rangos salariales en empleos relacionados con IA" aria-label="Stacked Bars" id="datawrapper-chart-TsAcz" src="https://datawrapper.dwcdn.net/TsAcz/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1303" data-external="1">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+</div>
+<p><strong>Herramienta:</strong> Datawrapper.</p>
+</section>
+<section id="goodbad-buenomalo" class="level2">
+<h2 class="anchored" data-anchor-id="goodbad-buenomalo">Good/bad (Bueno/malo)</h2>
+<p><strong>Descripción:</strong> Este gráfico interactivo permite analizar los factores que contribuyen al índice de felicidad en 156 países. En el ejemplo, se muestra a Dinamarca, que ocupa la segunda posición en el ranking global de felicidad con un puntaje de 7.6. La visualización desglosa los factores que afectan el bienestar en este país, tales como el PIB per cápita, apoyo social, esperanza de vida saludable, libertad para tomar decisiones, generosidad y percepción de corrupción, permitiendo una comparación entre los diferentes determinantes de la felicidad.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es permitir una exploración interactiva de los factores que influyen en el nivel de felicidad de cada país, ayudando a los usuarios a entender qué aspectos contribuyen al bienestar general. Es útil para investigadores, formuladores de políticas y cualquier persona interesada en el análisis de la calidad de vida y el bienestar social.</p>
+<p>Los datos fueron extraídos de <a href="https://www.kaggle.com/datasets/unsdsn/world-happiness">Kaggle</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/b8c38105-7764-4c5f-b54e-13abbe09777c/page/Cz6KE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="trend-tendencia" class="level2">
+<h2 class="anchored" data-anchor-id="trend-tendencia">Trend (Tendencia)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra la tendencia de ventas de vehículos en tres categorías: autos, camiones ligeros y camiones pesados. Las líneas representan la cantidad de ventas mensuales en cada categoría, donde se observa una tendencia creciente en las ventas de camiones ligeros y una leve disminución en las ventas de autos. Las ventas de camiones pesados se mantienen estables en valores bajos en comparación con las otras categorías. Este análisis permite identificar patrones de demanda en el mercado de vehículos a lo largo del tiempo.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es analizar las tendencias de ventas en diferentes tipos de vehículos a lo largo de los años. Este tipo de análisis es útil para fabricantes, concesionarios y analistas del sector automotriz, ya que les permite comprender la evolución de la demanda y anticipar posibles cambios en el mercado.</p>
+<p>Los datos fueron extraídos de <a href="https://www.kaggle.com/datasets/utkarshx27/monthly-transportation-statistics">Kaggle</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/3edea4df-8372-4417-8100-301310cb5c54/page/Tv7KE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="blacknwhite-blanco-y-negro" class="level2">
+<h2 class="anchored" data-anchor-id="blacknwhite-blanco-y-negro">Black’n’white (Blanco y negro)</h2>
+<p><strong>Descripción:</strong> Este gráfico muestra la tendencia mensual de las ventas de autos en un esquema monocromático para el período 2022-2023. Las barras negras y grises destacan las variaciones en las ventas, lo que permite identificar rápidamente los meses con picos o caídas significativas. El diseño en blanco y negro enfatiza los cambios sin la influencia de colores, ofreciendo una visión limpia y directa de las fluctuaciones en las ventas de autos.</p>
+<p><strong>Objetivo:</strong> El objetivo de este Grafico es proporcionar una representación clara y minimalista de las tendencias de ventas de autos, facilitando la identificación de patrones de variación mensual sin distracciones de color. Este enfoque ayuda a destacar los puntos clave de aumento y disminución en las ventas, útil para el análisis comparativo y la toma de decisiones en el sector automotriz.</p>
+<p>Los datos fueron extraídos de <a href="https://www.kaggle.com/datasets/utkarshx27/monthly-transportation-statistics">Kaggle</a>.</p>
+<div class="responsive-iframe-container">
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/5d1a3c4e-ec38-4244-b716-1d6f006e5897/page/Ll8KE" frameborder="0" style="border:0" allowfullscreen="" sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Looker Studio.</p>
+</section>
+<section id="fivethirtyeight-día-temático-de-fivethirtyeight" class="level2">
+<h2 class="anchored" data-anchor-id="fivethirtyeight-día-temático-de-fivethirtyeight">FiveThirtyEight (Día temático de FiveThirtyEight)</h2>
+<p><strong>Descripción:</strong> Este tablero comparativo presenta los porcentajes de aprobación de los expresidentes Obama y Trump según encuestas realizadas a diferentes grupos (votantes probables, votantes registrados y adultos). En cada sección, el gráfico de líneas ilustra la evolución de la aprobación presidencial a lo largo del tiempo, destacando las fluctuaciones en el apoyo público durante sus mandatos.</p>
+<p><strong>Objetivo:</strong> Comparar los niveles de aprobación entre los expresidentes Obama y Trump, mostrando las variaciones a lo largo del tiempo y proporcionando una visión clara de las diferencias en la percepción pública de sus gobiernos. La segmentación por tipo de encuestados ayuda a entender cómo distintos grupos demográficos evaluaron sus administraciones.</p>
+<p>Los datos fueron extraídos de <a href="https://www.kaggle.com/datasets/huffingtonpost/presidential-approval">Kaggle</a>.</p>
+<div class="responsive-iframe-container">
+<iframe title="30.FiveThirtyEight (Día temático de FiveThirtyEight)" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiMTFiNjdhZDctOGM1MC00ZmEwLTg2MGMtMzI4ZWNmYjdhNWQ4IiwidCI6IjU0NDc0ZmIzLTYzNTktNDBjMS1iNzI2LTVkNTZhN2RkMjk3NiIsImMiOjR9" frameborder="0" allowfullscreen="true">
+</iframe>
+</div>
+<p><strong>Herramienta:</strong> Microsoft Power BI.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
