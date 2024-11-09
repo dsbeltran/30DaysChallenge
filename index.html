@@ -3,35 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Principal</title>
+    <title>30DaysDavidBeltran</title>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi sitio web</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pagina2.html">Página 2</a></li>
-                <li><a href="pagina3.html">Página 3</a></li>
-            </ul>
-        </nav>
-    </header>
+    <iframe id="contenidoIframe" src="30DaysDavidBeltran.html" width="100%" style="border:none;height: 47000px;"></iframe>
 
-    <main>
-        <section>
-            <h2>Sobre este sitio</h2>
-            <p>Este es un ejemplo de una página HTML básica. Puedes añadir contenido adicional aquí.</p>
-        </section>
+    <script>
+        function ajustarAlturaIframe() {
+            const iframe = document.getElementById('contenidoIframe');
+            if (iframe.contentWindow.document.body) {
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+            }
+        }
 
-        <section>
-            <h2>Incluir otros archivos HTML</h2>
-            <p>Para llamar a otro archivo HTML, usa el enlace a continuación:</p>
-            <a href="archivo_otro.html">Ir a otro archivo HTML</a>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
-    </footer>
+        // Ajusta la altura del iframe una vez que el contenido esté completamente cargado
+        document.getElementById('contenidoIframe').onload = function() {
+            ajustarAlturaIframe();
+            // Usa MutationObserver para detectar cambios en el contenido
+            const observer = new MutationObserver(ajustarAlturaIframe);
+            observer.observe(iframe.contentWindow.document.body, { childList: true, subtree: true });
+        };
+    </script>
 </body>
 </html>
