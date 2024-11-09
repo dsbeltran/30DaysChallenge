@@ -28,6 +28,9 @@ Puedes explorar todas las visualizaciones de manera interactiva en mi sitio web 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/dsbeltran/30DaysChallenge.git
-  ``` 
+   ```
 2. Asegúrate de tener instaladas las dependencias necesarias (R, Python, Quarto).
 3. Explora el código y ejecuta las visualizaciones en tu entorno local.
+
+## Contribuciones 🤝
+Este proyecto es abierto y cualquier mejora o sugerencia es bienvenida. Si deseas contribuir, por favor abre un issue o envía un pull request.
